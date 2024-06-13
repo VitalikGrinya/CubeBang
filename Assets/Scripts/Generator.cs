@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Generate : MonoBehaviour
+public class Generator : MonoBehaviour
 {
     [SerializeField] private int _minCreateValue = 2;
     [SerializeField] private int _maxCreateValue = 6;
@@ -46,7 +46,9 @@ public class Generate : MonoBehaviour
             Separated?.Invoke(createdCubes);
         }
         else
+        {
             Destroyed?.Invoke(cube);
+        }    
     }
 
     private Cube InstantiateCubes(Cube cube)

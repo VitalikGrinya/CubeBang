@@ -19,12 +19,6 @@ public class Cube : MonoBehaviour
         _renderer = GetComponent<Renderer>();
     }
 
-    public void Destroy()
-    {
-        Touched?.Invoke(this);
-        Destroy(gameObject);
-    }
-
     public void Initialize(int scale, int chance)
     {
         transform.localScale /= scale;
@@ -35,8 +29,8 @@ public class Cube : MonoBehaviour
     public void AddForce(float force, float distance = 1)
     {
         float minDistance = 0.1f;
-        float minValue = 2f;
-        float maxValue = 4f;
+        float minValue = 5f;
+        float maxValue = 10f;
 
         if (distance < minDistance)
             distance = minDistance;
@@ -49,6 +43,12 @@ public class Cube : MonoBehaviour
                 force * RandomizeValue(minValue, maxValue));
 
         _rigidbody.AddForce(direction);
+    }
+
+    public void Destroy()
+    {
+        Touched?.Invoke(this);
+        Destroy(gameObject);
     }
 
     private float RandomizeValue(float minValue, float maxValue) => UnityEngine.Random.Range(minValue, maxValue);

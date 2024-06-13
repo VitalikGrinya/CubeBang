@@ -135,8 +135,8 @@ GameObject:
   - component: {fileID: 16198134}
   - component: {fileID: 16198133}
   - component: {fileID: 16198132}
-  - component: {fileID: 16198136}
   - component: {fileID: 16198137}
+  - component: {fileID: 16198136}
   - component: {fileID: 16198139}
   - component: {fileID: 16198138}
   m_Layer: 0
@@ -225,7 +225,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 16198131}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.52, z: 0}
+  m_LocalPosition: {x: 0, y: 2.39, z: -0.93}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -286,7 +286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _baseRadiusOverlap: 1
   _power: 5
-  _generate: {fileID: 16198139}
+  _generation: {fileID: 16198139}
 --- !u!114 &16198139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -303,13 +303,7 @@ MonoBehaviour:
   _maxCreateValue: 6
   _minChance: 0
   _maxChance: 100
-  _dividerScale: 2
-  _dividerChance: 2
   _cubes:
-  - {fileID: 16198136}
-  - {fileID: 16198136}
-  - {fileID: 16198136}
-  - {fileID: 16198136}
   - {fileID: 16198136}
   - {fileID: 16198136}
 --- !u!1 &103176018
@@ -377,8 +371,8 @@ GameObject:
   - component: {fileID: 405661529}
   - component: {fileID: 405661528}
   - component: {fileID: 405661527}
-  - component: {fileID: 405661526}
   - component: {fileID: 405661525}
+  - component: {fileID: 405661526}
   - component: {fileID: 405661524}
   - component: {fileID: 405661523}
   m_Layer: 0
@@ -402,7 +396,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _baseRadiusOverlap: 1
   _power: 5
-  _generate: {fileID: 405661524}
+  _generation: {fileID: 405661524}
 --- !u!114 &405661524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -419,13 +413,7 @@ MonoBehaviour:
   _maxCreateValue: 6
   _minChance: 0
   _maxChance: 100
-  _dividerScale: 2
-  _dividerChance: 2
   _cubes:
-  - {fileID: 405661526}
-  - {fileID: 405661526}
-  - {fileID: 405661526}
-  - {fileID: 405661526}
   - {fileID: 405661526}
   - {fileID: 405661526}
 --- !u!54 &405661525
@@ -547,7 +535,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 405661522}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.52, z: 4.48}
+  m_LocalPosition: {x: 0, y: 1.52, z: 6.27}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -766,8 +754,8 @@ GameObject:
   - component: {fileID: 954522360}
   - component: {fileID: 954522359}
   - component: {fileID: 954522358}
-  - component: {fileID: 954522357}
   - component: {fileID: 954522356}
+  - component: {fileID: 954522357}
   - component: {fileID: 954522355}
   - component: {fileID: 954522354}
   m_Layer: 0
@@ -791,7 +779,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _baseRadiusOverlap: 1
   _power: 5
-  _generate: {fileID: 954522355}
+  _generation: {fileID: 954522355}
 --- !u!114 &954522355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -808,13 +796,7 @@ MonoBehaviour:
   _maxCreateValue: 6
   _minChance: 0
   _maxChance: 100
-  _dividerScale: 2
-  _dividerChance: 2
   _cubes:
-  - {fileID: 954522357}
-  - {fileID: 954522357}
-  - {fileID: 954522357}
-  - {fileID: 954522357}
   - {fileID: 954522357}
   - {fileID: 954522357}
 --- !u!54 &954522356
@@ -936,7 +918,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 954522353}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.67, y: 1.52, z: 4.22}
+  m_LocalPosition: {x: 3.22, y: 1.79, z: 2.16}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1028,14 +1010,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.23168062, y: -0, z: -0, w: 0.9727919}
-  m_LocalPosition: {x: 0, y: 6.69, z: -11.57}
+  m_LocalRotation: {x: 0.5885771, y: -0, z: -0, w: 0.8084411}
+  m_LocalPosition: {x: 1.41, y: 29.7, z: -5.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 26.792, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 72.112, y: 0, z: 0}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1273,8 +1255,8 @@ GameObject:
   - component: {fileID: 2102330851}
   - component: {fileID: 2102330850}
   - component: {fileID: 2102330849}
-  - component: {fileID: 2102330848}
   - component: {fileID: 2102330847}
+  - component: {fileID: 2102330848}
   - component: {fileID: 2102330846}
   - component: {fileID: 2102330845}
   m_Layer: 0
@@ -1298,7 +1280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _baseRadiusOverlap: 1
   _power: 5
-  _generate: {fileID: 2102330846}
+  _generation: {fileID: 2102330846}
 --- !u!114 &2102330846
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1315,13 +1297,7 @@ MonoBehaviour:
   _maxCreateValue: 6
   _minChance: 0
   _maxChance: 100
-  _dividerScale: 2
-  _dividerChance: 2
   _cubes:
-  - {fileID: 2102330848}
-  - {fileID: 2102330848}
-  - {fileID: 2102330848}
-  - {fileID: 2102330848}
   - {fileID: 2102330848}
   - {fileID: 2102330848}
 --- !u!54 &2102330847
@@ -1443,7 +1419,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2102330844}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.42, y: 1.52, z: 0}
+  m_LocalPosition: {x: -3.33, y: 5.3, z: 1.99}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
